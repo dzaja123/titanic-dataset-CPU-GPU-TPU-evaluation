@@ -2,6 +2,32 @@
 This GitHub repository assesses machine learning models on the Titanic dataset using CPU, GPU, and TPU accelerators. 
 The primary objective is to provide a comprehensive comparison of the models' performance across different hardware configurations.
 
+## Usage
+### Local Execution
+To run the evaluation locally, follow the steps:
+
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/dzaja123/titanic-dataset-CPU-GPU-TPU-evaluation.git
+```
+Navigate to the cloned directory:
+```bash
+cd titanic-dataset-CPU-GPU-TPU-evaluation
+```
+Execute the main.py script:
+```bash
+python main.py
+```
+
+### Google Colab
+In order to optimize the performance of your Colab notebook, it is crucial to define the hardware accelerator in the notebook settings. This step allows you to harness the power of GPUs (Graphics Processing Units) or TPUs (Tensor Processing Units) for faster computations, especially beneficial for machine learning tasks.
+
+#### Instructions
+1. Click on the "Edit -> Notebook settings" option in the Colab toolbar.
+2. Choose the desired accelerator from the "Hardware accelerator" (CPU, GPU or TPU).
+3. Click "Save" to apply the changes.
+4. To run the full code, use the "Runtime -> Run all" option from the option menu, or use the Ctrl+F9 command from the keyboard.
+
 ## Results
 ### CPU
 ```bash
